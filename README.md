@@ -6,34 +6,39 @@ This repository provides a comprehensive K-Nearest Neighbours (KNN) implementati
 
 This repository contains 3 different KNN projects:
 
-#### 1. Glass Classification
-- **Data**: `Glass Classification/Data/glass.csv`
-- **Notebook**: `Glass Classification/Glass Classification.ipynb`
+#### 1. Glass Classification (EXAMPLE)
+
+- **Data**: `Glass Classification/Data/glass.csv`
+- **Notebook**: `Glass Classification/Glass Classification.ipynb`
 - **Content**: Glass type classification based on chemical composition
 - **Objective**: Predict glass type using chemical properties
 - **Status**: Ready for analysis
 
 #### 2. Income Prediction
-- **Data**: `Income Prediction/Data/adult.csv`
-- **Notebook**: `Income Prediction/Income Prediction.ipynb`
+
+- **Data**: `Income Prediction/Data/adult.csv`
+- **Notebook**: `Income Prediction/Adult Income Prediction - KNN.ipynb`
 - **Content**: Adult income dataset for binary classification
 - **Objective**: Predict whether income exceeds $50K based on demographic data
 - **Status**: Ready for analysis
 
 #### 3. Physical Activity
-- **Data**: Multiple CSV files in `Physical Activity/Data/`
-- **Notebook**: `Physical Activity/Physical Activity.ipynb`
+
+- **Data**: Multiple CSV files in `Physical Activity/Data/UCI_HAR`
+- **Notebook**: `Physical Activity/Physical Activity.ipynb`
 - **Content**: Physical activity recognition from sensor data
-- **Objective**: Classify different types of physical activities
+- **Objective**: In this project, we successfully built a multi-class k-Nearest Neighbours (KNN) classifier to recognize human activities from smartphone sensor data.
 - **Status**: Ready for analysis
 
 ## Getting Started
 
 1. Clone this repository
 2. Install required Python packages for KNN:
-   ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn jupyter
-   ```
+    
+    ```shell
+    pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+    ```
+    
 3. Choose a project folder and open the corresponding Jupyter notebook
 4. Follow the analysis and experiment with different KNN parameters
 
@@ -60,18 +65,16 @@ K-Nearest-Neighbours/
 │   └── Data/
 │       └── glass.csv
 ├── Income Prediction/
-│   ├── Income Prediction.ipynb
+│   ├── Adult Income Prediction - KNN.ipynb
 │   └── Data/
 │       └── adult.csv
 └── Physical Activity/
-    ├── Physical Activity.ipynb
+    ├── KNN – Human Activity Recognition.ipynb
     └── Data/
-        ├── Cycling.csv
-        ├── Football.csv
-        ├── Jogging.csv
-        ├── JumpRope.csv
-        ├── NewProcessedData.csv
-        └── OriginalProcessedData.csv
+        ├── UCI_HAR
+        └── test/
+        └── train/
+        
 ```
 
 ## Tips for Success
